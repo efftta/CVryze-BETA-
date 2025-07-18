@@ -1,0 +1,4 @@
+pdf2image
+pytesseract
+Pillow
+poppler-utils  # sistemine manuel kurman gerekir (PDF dönüştürmek için)

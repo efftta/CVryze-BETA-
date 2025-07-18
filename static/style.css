@@ -1,0 +1,65 @@
+/* Genel sayfa arkaplan ve yazı fontu */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa; /* Bootstrap’in bg-light tonu */
+  color: #333;
+}
+
+/* Başlıklar */
+h2, h4 {
+  font-weight: 700;
+  color: #1a237e; /* Koyu mavi ton */
+}
+
+/* Butonlar */
+.btn-primary {
+  background-color: #3949ab; /* Daha koyu mavi */
+  border-color: #3949ab;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #303f9f;
+  border-color: #303f9f;
+}
+
+/* Kartlar */
+.card {
+  border-radius: 0.75rem;
+}
+
+.card-header {
+  font-size: 1.1rem;
+}
+
+/* Scrollbar (Çıkarılan metin alanı) */
+pre {
+  scrollbar-width: thin;
+  scrollbar-color: #3949ab #e0e0e0;
+}
+
+pre::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+pre::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border-radius: 10px;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background-color: #3949ab;
+  border-radius: 10px;
+  border: 2px solid #e0e0e0;
+}
+
+/* Responsive uyumluluk için küçük düzeltmeler */
+@media (max-width: 576px) {
+  h2, h4 {
+    font-size: 1.5rem;
+  }
+  .btn-primary {
+    font-size: 1.1rem;
+  }
+}

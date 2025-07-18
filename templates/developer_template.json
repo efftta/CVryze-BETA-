@@ -1,0 +1,12 @@
+{
+  "required_sections": {
+    "Summary": ["summary", "professional summary", "profile"],
+    "Experience": ["experience", "work experience", "professional experience", "employment history"],
+    "Projects": ["projects", "personal projects", "project experience"],
+    "Skills": ["skills", "technical skills", "abilities"],
+    "Education": ["education", "academic background", "qualifications"]
+  },
+  "keywords": ["python", "javascript", "react", "api", "docker", "git"],
+  "bad_phrases": ["responsible for", "helped with", "involved in"],
+  "good_phrases": ["built", "led", "developed", "optimized"]
+}
